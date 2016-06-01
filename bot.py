@@ -3,7 +3,7 @@
 
 #from __future__ import unicode_literals
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from hazm import *
+from hazm import Normalizer
 
 def start(bot, update):
     bot.sendMessage(update.message.chat_id, text='Hello World!')

@@ -1,0 +1,2 @@
+hazm==0.5 ; python_version < '3.4'
+python-telegram-bot==4.2 ; python_version < '3.4'
